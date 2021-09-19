@@ -1,3 +1,3 @@
 # TicTacToe Flutter project.
 
-![Screenshot](tictactoe.gif)
+<img src="tictactoe.gif" width="360" />
