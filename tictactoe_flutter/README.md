@@ -1,6 +1,4 @@
-# tictactoe_flutter
-
-TicTacToe Flutter project.
+# TicTacToe Flutter project.
 
 ![Screenshot](tictactoe.gif)
 
