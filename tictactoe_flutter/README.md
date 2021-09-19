@@ -1,6 +1,8 @@
 # tictactoe_flutter
 
-A new Flutter project.
+TicTacToe Flutter project.
+
+![Screenshot](tictactoe.gif)
 
 ## Getting Started
 
