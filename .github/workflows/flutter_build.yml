@@ -38,7 +38,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: Package
-        path: build/app/outputs/flutter-apk/
+        path: tictactoe_flutter/build/app/outputs/flutter-apk/
     
   #web_build:
     # The type of runner that the job will run on
