@@ -2,6 +2,10 @@
 
 name: CI
 
+defaults:
+  run:
+    shell: bash
+    working-directory: tictactoe_flutter
 
 
 # Controls when the workflow will run
@@ -33,9 +37,6 @@ jobs:
           channel: 'stable' # or: 'beta', 'dev' or 'master'
 
       # Runs a set of commands using the runners shell      
-      
-      - name: Go to tictactoe_flutter folder
-        run: cd tictactoe_flutter
       - name: Fetch Packages
         run: flutter pub get
       # - name: Fetch Packages  
