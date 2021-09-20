@@ -32,8 +32,10 @@ jobs:
         with:
           channel: 'stable' # or: 'beta', 'dev' or 'master'
 
-      # Runs a set of commands using the runners shell
-      - name: Build Android
-      - run: flutter pub get
-      - run: flutter test
-      - run: flutter build apk
+      # Runs a set of commands using the runners shell      
+      - name: Fetch Packages
+        run: flutter pub get
+      # - name: Fetch Packages  
+      # run: flutter test
+      - name: Build APK
+        run: flutter build apk
